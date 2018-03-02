@@ -29,7 +29,7 @@ final class JavaScriptPlusConnectorHelper extends JavaScriptConnectorHelper {
 
 	@Override
     protected void showInitProblem(
-            java.util.ArrayList<String> attemptedNames) {
+            java.util.List<String> attemptedNames) {
        connector.getWidget().showNoInitFound(attemptedNames);
     }
 
